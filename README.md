@@ -82,8 +82,13 @@ All the settings that don't change with every episode, but are set up on a per
 podcast basis, are located in the settings file (default: ```settings.json```)
 If you want to see an example, have a look at ```example_settings.json```.
 I wrote a little interactive tool to generate a settings file. Run:
-```python setup.py```
+```
+python setup.py
+```
 It will guide you through the process.
+
+## Dependencies
+Fism depends on [python-requests](http://docs.python-requests.org/en/latest/).
 
 ## License
 GPLv3
