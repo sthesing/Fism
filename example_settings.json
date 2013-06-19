@@ -1,0 +1,24 @@
+{"fism_settings": 
+    {
+    "firtz_settings": 
+        {
+        "base_audio_url": "http://supicast.example.com/upload/", 
+        "base_web_url": "http://example.com/supicast/show/",
+        "ftp_host": "example.com",
+        "ftp_user": "myUserName",
+        "ftp_passw": "myPassword",
+        "ftp_path": "feeds/supicast", 
+        "non_auphonic_types": ["epub", " mobi", " pdf"]
+        }, 
+    "auphonic_settings": 
+        {
+        "auphonic_username": "podcast@example.com", 
+        "auphonic_password": "myOtherPassword", 
+        "preset": "sOmeCrypticsTriNGaUUiD"
+        }, 
+    "adn_settings": 
+        {
+        "adntoken": "sOmeCrypticsTriNGaAdNToken", 
+        "use_adn_as_firtz_comments": true}
+    }
+}
