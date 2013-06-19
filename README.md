@@ -90,6 +90,8 @@ It will guide you through the process.
 ## Dependencies
 Fism depends on [python-requests](http://docs.python-requests.org/en/latest/).
 
+The app.net Module uses Simon de la Rouviere's [Python-App.net-API-Wrapper]('https://github.com/simondlr/Python-App.net-API-Wrapper), which is included in Fism.
+
 ## License
 GPLv3.
 
