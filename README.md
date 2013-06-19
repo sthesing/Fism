@@ -91,7 +91,8 @@ It will guide you through the process.
 Fism depends on [python-requests](http://docs.python-requests.org/en/latest/).
 
 ## License
-GPLv3
+GPLv3.
+
 If you want to us Fism or parts of it in a FLOSS project imcompatible with the
 GPLv3, contact me via email (software@webdings.de) or via 
 [app.net](http://alpha.app.net/hirnbloggade), I'll probably be willing to dual 
