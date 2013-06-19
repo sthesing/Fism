@@ -51,6 +51,10 @@ API call.
 It retains the post ID and can write it to the epi file for the Firtz. This 
 enables using the app.net thread as a comment thread.
 
+You need an app.net token to use this. You can get one if you either have a 
+developer account or you can get one using Jonathan Duerig's service [Dev-Lite](http://dev-lite.jonathonduerig.com).
+Pick one with the scope "Write post".
+
 ## Usage
 Fism has two command line interfaces, at the moment:
 1. Single call with options
@@ -65,6 +69,8 @@ For example a call containing all the arguments could look like this:
 ```
 python fism-cli.py sup001-crazy-title --audio "recordings/audio.ogg" --title "SUP001 Crazy Title" --subtitle "A moderately crazy subtitle" --summary "A boringly normal summary, containing lots of text." --track 001 --tags "some, tag, or, another" --chapters "data/chapters.txt" --epi_dict "'date':'2013-01-01', 'somekey':'somevalue'" --prep_epi "article.epi" --post "I just published a new #podcast episode: SUP001 Crazy Title"
 ```
+In this case, Fism would upload a file called audio.ogg to auphonic, create a production with all the specified metadata and start said production. When auphonic finishes Fism would create an epi file (using a prepared epi file called article.epi to work on) adding a custom date (and some other thingy). It would upload this file to the Firtz, make a post on app.net, and then update the epi file on the server with the post id.
+Long example, you get the drift. 
 
 ### Interactive
 The interactive mode will ask you step by step to enter all the needed information.
