@@ -57,6 +57,7 @@ Pick one with the scope "Write post".
 
 ## Usage
 Fism has two command line interfaces, at the moment:
+
 1. Single call with options
 2. Interactive mode
 
@@ -101,7 +102,7 @@ The app.net Module uses Simon de la Rouviere's [Python-App.net-API-Wrapper]('htt
 ## License
 GPLv3.
 
-If you want to us Fism or parts of it in a FLOSS project imcompatible with the
+If you want to use Fism or parts of it in a FLOSS project imcompatible with the
 GPLv3, contact me via email (software@webdings.de) or via 
 [app.net](http://alpha.app.net/hirnbloggade), I'll probably be willing to dual 
 license for you.
