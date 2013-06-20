@@ -127,13 +127,6 @@ if __name__ == "__main__":
     
     ia = Interactive()
     ia.ask()
-        
-    ## Read settings from JSON-File
-    #f = open((ia.settings or 'settings.json'), 'r')
-    ## Overwrite the variable we stored the settings file name in with the
-    ## settings themselves
-    #ia.settings = json.loads(f.read())
-    #f.close()
     
     # Init the Fism with the settings    
     fism = Fism((ia.settings or 'settings.json'))

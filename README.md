@@ -1,7 +1,7 @@
 Fism
 ====
 
-Fism[^fism] is a tool for Podcasters using one, two or all of the following list:
+Fism<sup><a href="#fn1" id="ref1">1</a></sup> is a tool for Podcasters using one, two or all of the following list:
 
 1. [Auphonic](http://auphonic.com)
 2. [Firtz](http://github.com/eazyliving/firtz)
@@ -106,8 +106,10 @@ GPLv3, contact me via email (software@webdings.de) or via
 [app.net](http://alpha.app.net/hirnbloggade), I'll probably be willing to dual 
 license for you.
 
-[^fism]: You can decide what Fism means: 1) An phonetic approximation of 
+<hr></hr>
+
+<sup id="fn1">1. You can decide what Fism means: 1) An phonetic approximation of 
 [FSM](https://en.wikipedia.org/wiki/Flying_Spaghetti_Monster), 2) A new ism, 
 because it's finally time for a new ism. And if Fism is your ism, then you can 
 call yourself a fist. Maybe you like that... 3) Firtz ihm seine Mama (German 
-for "Firtz'ses his Mom"). More suggestions are welcome ;-)
+for "Firtz'ses his Mom"). More suggestions are welcome ;-) <a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>

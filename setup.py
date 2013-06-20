@@ -21,6 +21,9 @@ import sys
 import json
 
 def main():
+    """
+    Generates a JSON Settings file for Fism.
+    """
     fism_settings = {}
     # Ask general questions
     use_auphonic = not (raw_input('Would you like to use the auphonic module? yn (Default:y): ') == ("n" or "N" or "no" or "No") )
