@@ -13,7 +13,7 @@ It has three modules handling these three use cases.
 The Auphonic module is a rudimentary client for the API of 
 [Auphonic](http://auphonic.com). It allows starting a new production if you provide it with
 * a base filename / episode slug
-* an audio_file
+* an audio file
 * an episode title
 * an episode subtitle
 * a track number
@@ -51,7 +51,7 @@ API call.
 It retains the post ID and can write it to the epi file for the Firtz. This 
 enables using the app.net thread as a comment thread.
 
-You need an app.net token to use this. You can get one if you either have a 
+**You need an app.net token to use this.** You can get one if you either have a 
 developer account or you can get one using Jonathan Duerig's service [Dev-Lite](http://dev-lite.jonathonduerig.com).
 Pick one with the scope "Write post".
 

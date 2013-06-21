@@ -64,7 +64,7 @@ def main():
         fism_settings['firtz_settings'] = firtz_settings
             
     if use_adn:
-        adntoken = raw_input('Specify an token for app.net (you need a developer account OR you can go to http://dev-lite.jonathonduerig.com/): ')
+        adntoken = raw_input('Specify a token for app.net (you need a developer account OR you can go to http://dev-lite.jonathonduerig.com/): ')
         use_adn_as_firtz_comments = (raw_input('Would you like to use the app.net for comments in the Firtz? yn (Default:n): ') == ("y" or "Y" or "yes" or "Yes"))
         
         adn_settings = {'adntoken': adntoken, 'use_adn_as_firtz_comments': use_adn_as_firtz_comments}
@@ -72,7 +72,7 @@ def main():
     
     settings = {'fism_settings': fism_settings}
     filename = "settings.json"
-    filename = raw_input('Specify a filename for the settings file. (Default: "settings.json": ') or "settings.json"
+    filename = raw_input('Specify a filename for the settings file. (Default: "settings.json"): ') or "settings.json"
     if not filename.endswith('.json'):
         filename = filename + '.json'
     print "Writing settings to " + filename

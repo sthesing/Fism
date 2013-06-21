@@ -36,6 +36,7 @@ nosetests.xml
 
 # Fism
 settings.json
+test-data/
 
 # Geany
 *.geany

@@ -103,11 +103,6 @@ if __name__ == "__main__":
     # Init the Fism with the settings
     fism = Fism(args.settings)
     
-    # Read settings from JSON-File
-    #f = open((args.settings or 'settings.json'), 'r')
-    #settings = json.loads(f.read())
-    #f.close()
-    
     # OK, at this point, the parser hasn't detected any errors. Fine so far.
     # Let's check for some rudimentary consistency:
     # If you have one of the auphonic arguments, you need all of them.
