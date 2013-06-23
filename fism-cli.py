@@ -18,7 +18,7 @@
 ##along with Fism. If not, see http://www.gnu.org/licenses/.
 
 __author__ = "Stefan Thesing <software@webdings.de>"
-__version__ = "0.5.0"
+__version__ = "0.5.1"
 __date__ = "Date: 2013/06/19"
 __copyright__ = "Copyright (c) 2013 Stefan Thesing"
 __license__ = "GPL"
@@ -102,11 +102,6 @@ if __name__ == "__main__":
     
     # Init the Fism with the settings
     fism = Fism(args.settings)
-    
-    # Read settings from JSON-File
-    #f = open((args.settings or 'settings.json'), 'r')
-    #settings = json.loads(f.read())
-    #f.close()
     
     # OK, at this point, the parser hasn't detected any errors. Fine so far.
     # Let's check for some rudimentary consistency:
