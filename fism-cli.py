@@ -18,7 +18,7 @@
 ##along with Fism. If not, see http://www.gnu.org/licenses/.
 
 __author__ = "Stefan Thesing <software@webdings.de>"
-__version__ = "0.5.0"
+__version__ = "0.5.1"
 __date__ = "Date: 2013/06/19"
 __copyright__ = "Copyright (c) 2013 Stefan Thesing"
 __license__ = "GPL"

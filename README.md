@@ -107,6 +107,10 @@ GPLv3, contact me via email (software@webdings.de) or via
 [app.net](http://alpha.app.net/hirnbloggade), I'll probably be willing to dual 
 license for you.
 
+## Support
+If you want to support this, feel free to click on Fism's Flattr-button:
+<a href="http://flattr.com/thing/1529456/sthesingFism-on-GitHub" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+
 <hr></hr>
 
 <sup id="fn1">1. You can decide what Fism means: 1) An phonetic approximation of 
