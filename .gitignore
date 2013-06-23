@@ -40,3 +40,7 @@ test-data/
 
 # Geany
 *.geany
+
+# Bzr
+.bzr/
+.bzrignore

@@ -90,7 +90,7 @@ podcast basis, are located in the settings file (default: ```settings.json```)
 If you want to see an example, have a look at ```example_settings.json```.
 I wrote a little interactive tool to generate a settings file. Run:
 ```
-python setup.py
+python generate-settings.py
 ```
 It will guide you through the process.
 

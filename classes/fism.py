@@ -48,13 +48,13 @@ class Fism:
             print "## Error ##"
             print "No settings file could not be found."
             print "Please retry and specify a settings file or create the standard 'settings.json' file in the main directory of Fism."
-            print "If you want to generate one, use setup.py!"
+            print "If you want to generate one, use generate-settings.py!"
             sys.exit(e)
         except ValueError, e:
             print "## Error ##"
             print "There is a problem with your settings file."
             print "Please fix it and retry."
-            print "If you want to generate one, use setup.py!"
+            print "If you want to generate one, use generate-settings.py!"
             sys.exit(e)
         
         # Use only what is inside "fism_settings"
@@ -66,7 +66,7 @@ class Fism:
             print "It seems to be valid JSON, but not a valid Fism settings file."
             print "The key '" + e.message + "' is missing."
             print "Please fix it and retry."
-            print "If you want to generate one, use setup.py!"
+            print "If you want to generate one, use generate-settings.py!"
             sys.exit()
             
         
