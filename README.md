@@ -1,3 +1,8 @@
+# This project is no longer maintained.
+
+Since app.net shut down, only two thirds of the software are useful, anyway. I have no time (and not much inclination, either) to clean up the 
+code to make it useful, again.
+
 Fism
 ====
 
